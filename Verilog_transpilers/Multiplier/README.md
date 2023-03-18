@@ -4,7 +4,7 @@ Ce module, qui est un multiplieur 8 bits fournissant en sortie un vecteur 16 bit
 Pour effectuer cette opération, nous multiplions chaque bit d'un des vecteurs par l'ensemble des bits de l'autre grâce à une porte "ET":
 
 ```verilog
-wire [7:0] exemple = 8'b{entree1[bit_X]} & entree2;
+wire [7:0] exemple = {8{entree1[bit_X]}} & entree2;
 ```
 
 Ensuite, on effectue la somme des multiplications grâce au module additionneur 8 bits implémentés dans le précédent exercice.
