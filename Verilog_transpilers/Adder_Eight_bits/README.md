@@ -1,6 +1,6 @@
 # Additionneur 8 bits
 
-Pour réaliser cet additionneur 8 bits, on réutilise le module d'additionneur 1 bit qu'on appelle via un 'include "add.v"'.
+Pour réaliser cet additionneur 8 bits, on réutilise le module d'additionneur 1 bit qu'on appelle via un 'include "add.v"'. On a besoin de créer huit instances de ce module pour pouvoir effectuer les huits additions binaires.
 
 # Résultats
 
